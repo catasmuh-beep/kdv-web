@@ -137,7 +137,7 @@ export default async function PersonelPage({
   }}
 >
   <img
-    src="/catas-logo.png"
+    src="/catas-logo.svg"
     alt="Çataş Mühendislik"
     style={{
       height: 62,
