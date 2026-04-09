@@ -39,6 +39,13 @@ export default async function LoginPage() {
     display: "block",
   }}
 />
+        <img
+  src="/catas-logo.svg"
+  style={{
+    height: 70,
+    marginBottom: 16
+  }}
+/>
         <h1
           style={{
             margin: 0,
