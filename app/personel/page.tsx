@@ -129,28 +129,34 @@ export default async function PersonelPage({
             flexWrap: "wrap",
           }}
         >
-          <div>
-            <h1
-              style={{
-                margin: 0,
-                fontSize: 30,
-                fontWeight: 800,
-                color: "#111827",
-              }}
-            >
-              Personel Ekranı
-            </h1>
-            <p
-              style={{
-                marginTop: 8,
-                marginBottom: 0,
-                color: "#6b7280",
-                fontSize: 15,
-              }}
-            >
-              Yıllara göre KDV kayıtlarını görüntüleyebilirsiniz.
-            </p>
-          </div>
+          <div
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-start",
+  }}
+>
+  <img
+    src="/catas-logo.png"
+    alt="Çataş Mühendislik"
+    style={{
+      height: 62,
+      width: "auto",
+      display: "block",
+      marginBottom: 8,
+    }}
+  />
+  <div
+    style={{
+      fontSize: 28,
+      fontWeight: 800,
+      color: "#111827",
+      lineHeight: 1.1,
+    }}
+  >
+    KDV TAKİP PROGRAMI
+  </div>
+</div>
 
           <a
             href="/admin"
