@@ -136,28 +136,34 @@ export default async function AdminPage({
             flexWrap: "wrap",
           }}
         >
-          <div>
-            <h1
-              style={{
-                margin: 0,
-                fontSize: 30,
-                fontWeight: 800,
-                color: "#111827",
-              }}
-            >
-              Admin Paneli
-            </h1>
-            <p
-              style={{
-                marginTop: 8,
-                marginBottom: 0,
-                color: "#6b7280",
-                fontSize: 15,
-              }}
-            >
-              Excel mantığına göre hesaplanır. Aynı ay seçilirse kayıt güncellenir.
-            </p>
-          </div>
+         <div
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-start",
+  }}
+>
+  <img
+    src="/catas-logo.svg"
+    alt="Çataş Mühendislik"
+    style={{
+      height: 62,
+      width: "auto",
+      display: "block",
+      marginBottom: 8,
+    }}
+  />
+  <div
+    style={{
+      fontSize: 28,
+      fontWeight: 800,
+      color: "#111827",
+      lineHeight: 1.1,
+    }}
+  >
+    KDV TAKİP PROGRAMI
+  </div>
+</div>
 
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
             <a
