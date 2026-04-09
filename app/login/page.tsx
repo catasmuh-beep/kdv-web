@@ -31,6 +31,14 @@ export default async function LoginPage() {
           border: "1px solid #e5e7eb",
         }}
       >
+<img
+  src="/logo.svg"
+  style={{
+    height: 60,
+    marginBottom: 14,
+    display: "block",
+  }}
+/>
         <h1
           style={{
             margin: 0,
